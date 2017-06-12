@@ -1,6 +1,6 @@
 {
   "name": "grace-mock",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "graceful mockjs",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/leolin1229/grace-mock#readme",
   "dependencies": {
+    "mockjs": "^1.0.1-beta3"
+  },
+  "peerDependencies": {
     "mockjs": "^1.0.1-beta3"
   }
 }
