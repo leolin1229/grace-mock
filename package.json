@@ -1,0 +1,25 @@
+{
+  "name": "grace-mock",
+  "version": "0.0.1",
+  "description": "graceful mockjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolin1229/grace-mock.git"
+  },
+  "keywords": [
+    "mockjs"
+  ],
+  "author": "leolin1229",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolin1229/grace-mock/issues"
+  },
+  "homepage": "https://github.com/leolin1229/grace-mock#readme",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3"
+  }
+}
