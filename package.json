@@ -1,10 +1,12 @@
 {
   "name": "grace-mock",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "graceful mockjs",
-  "main": "index.js",
+  "main": "./dist/GraceMock.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel GraceMock.js -o ./dist/GraceMock.js",
+    "dev": "babel GraceMock.js -w -o ./dist/GraceMock.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,10 +21,17 @@
     "url": "https://github.com/leolin1229/grace-mock/issues"
   },
   "homepage": "https://github.com/leolin1229/grace-mock#readme",
-  "dependencies": {
-    "mockjs": "^1.0.1-beta3"
-  },
   "peerDependencies": {
     "mockjs": "^1.0.1-beta3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
   }
 }
