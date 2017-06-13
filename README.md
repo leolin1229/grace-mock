@@ -17,7 +17,7 @@ npm install grace-mock -D
 
 ## 用法
 
-> mockjs接口请移步(https://github.com/nuysoft/Mock/wiki)[这里].
+> mockjs接口请移步[这里](https://github.com/nuysoft/Mock/wiki).
 
 ### CommonJS
 ```js
